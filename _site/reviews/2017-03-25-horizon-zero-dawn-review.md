@@ -4,6 +4,7 @@ title: 'New Hope on the Horizon – Horizon Zero Dawn'
 summary: 'A review of Horizon Zero Dawn on PlayStation 4.'
 thumb: '/images/reviews/horizon_zero_dawn.jpg'
 hero: '/images/reviews/horizon_zero_dawn.jpg'
+external: 'false'
 tags:
   - review
   - playstation
