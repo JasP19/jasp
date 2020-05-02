@@ -1,0 +1,35 @@
+---
+layout: layouts/page.njk
+hero: /images/reviews.png
+tags:
+  - nav
+pagination:
+  data: collections.reviews
+  size: 10
+navtitle: Reviews
+iconclass: fas fa-graduation-cap
+permalink: /reviews/{{pagination.pageNumber}}/
+eleventyNavigation:
+  key: reviews
+  parent: main
+  order: 2
+
+---
+{% include "includes/pagination.njk" %}
+
+{%- for item in pagination.items %}
+  {% set defaultURL = '' %}
+  {% if item.data.links[0] %}
+    {% for name, link in item.data.links[0] %}
+      {% set defaultURL = link %}
+    {% endfor %}
+  {% else %}
+      {% set defaultURL = item.url %}
+  {% endif %}
+
+  {% include "includes/items.njk" %}
+
+{% endfor -%}
+
+{% include "includes/pagination.njk" %}
+

@@ -1,0 +1,29 @@
+{
+  "title": "jasp",
+  "description": "A tech blog featuring coding, electronics and gaming",
+  "url": "jasp.dev",
+  "feed": {
+    "summary": "A tech blog featuring coding, electronics and gaming"
+  },
+  "author": {
+    "name": "Jason Parry",
+    "bio": "Jason Parry is a tech enthusiast. He writes blog posts on everything coding, electronics and gaming.",
+    "social": [
+      {
+        "name": "github",
+        "iconClass": "fab fa-github",
+        "url": "https://github.com/JasP19"
+      },
+      {
+        "name": "linkedin",
+        "iconClass": "fab fa-linkedin",
+        "url": "https://www.linkedin.com/in/jason-parry-b93a07115/"
+      },
+      {
+        "name": "twitter",
+        "iconClass": "fab fa-twitter",
+        "url": "https://twitter.com/JasP_19"
+      }
+    ]
+  }
+}
