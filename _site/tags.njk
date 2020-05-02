@@ -8,6 +8,8 @@ pagination:
     - all
     - post
     - posts
+    - review
+    - reviews
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
@@ -18,3 +20,5 @@ permalink: /tags/{{ tag }}/
 {%- for item in collections[tag] | reverse %}
   {% include "includes/items.njk" %}
 {%- endfor %}
+
+Return [home](/).
