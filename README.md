@@ -9,3 +9,5 @@ This project is a personal blog site for coding, electronics and gaming-related 
 - Run `npm start` to start the development server.
 - Point your browser to `localhost:8080`
 - Run `npm run build` to build the project for deployment.
+- Run `firebase serve --only hosting` to test locally
+- Run `firebase deploy` to deploy

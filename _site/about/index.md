@@ -3,7 +3,7 @@ layout: layouts/page.njk
 hero: /images/me.png
 navtitle: About
 about: true
-headerHeight: 20em;
+headerHeight: 25em;
 ---
 
 My name is Jason Parry and I'm a software engineer. I love all things tech and gaming and I specifically love combining coding and electronics to produce IoT solutions. I hope this blog is informative and encourages you to explore all of the awesome things which are around in the tech and gaming space. 
