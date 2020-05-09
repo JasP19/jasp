@@ -30,3 +30,5 @@ However, the graphics seem to be the real draw card in this game. The PS4 Pro ve
 As with any new game these days, HZD carries a hefty price tag. However, this purchase looks to be well worth it with reviews coming in at 8 to 9 out of 10. 
  
 Horizon Zero Dawn is a beautiful open-world RPG which places the player on a quest to discover a plethora of dangers in a post-apocalyptic world. It has some serious, fun gameplay and stunning visuals which, along with the many positive reviews, leads me to encourage any PS4 owners to give this game a try. Enjoy the view!
+
+_Jason Parry_
