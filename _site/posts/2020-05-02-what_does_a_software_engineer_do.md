@@ -26,6 +26,6 @@ Contrary to popular opinion we can't fix your printer - well, we probably can bu
 
 I'm getting a bit ahead of myself here so don't panic if the last sentence was a little confusing. The point is that software engineers produce code. There are quite literally thousands of tools and techniques that are used to accomplish this task and we'll get to a lot of the more popular ones in later posts. I hope I didn't ramble on for too long and that you at least have a fairly good idea of what a software engineer does. Look out for the next post in this series where I discuss the beginning of the journey to becoming a software engineer.
 
-UPDATE: The next post in the series is now live where I talk about [the qualities required to be a software engineer](/posts/2020-05-09-who_can_be_a_software_engineer_do/).
+UPDATE: The next post in the series is now live where I talk about [the qualities required to be a software engineer](/posts/2020-05-09-who_can_be_a_software_engineer/).
 
 _Jason Parry_
