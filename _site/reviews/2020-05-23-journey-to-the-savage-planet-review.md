@@ -2,8 +2,8 @@
 layout: layouts/post.njk
 title: 'Journey to the (Slightly) Savage Planet'
 summary: 'A review of Journey to the Savage Planet on PlayStation 4.'
-thumb: '/images/reviews/horizon_zero_dawn.jpg'
-hero: '/images/reviews/horizon_zero_dawn.jpg'
+thumb: '/images/reviews/journey_to_the_savage_planet.jpg'
+hero: '/images/reviews/journey_to_the_savage_planet.jpg'
 external: 'false'
 tags:
   - review
@@ -17,11 +17,11 @@ tags:
 
 Journey to the Savage Planet involves a unique, funny quest across a wild and colourful planet. Play alone or grab a partner in crime (lovingly termed a meat clone) and set off on the latest adventure out of Typhoon Studios.
 
-Kindred Aerospace has tasked you with exploring planet ARY-26 to determine its suitability for future human inhabitation. You have two main mission objectives, discover the secrets of the planet, and extract enough fuel to ensure you can make it home in your ship (the Javelin). Be prepared to scan all manners of strange fauna and flora as part of your analysis and make sure you keep your trusty laser gun close by - not everything is as innocently sweet as a Pufferbird (think of Porgs from Star Wars).
+Kindred Aerospace has tasked you with exploring planet AR-Y26 to determine its suitability for future human inhabitation. You have two main mission objectives, discover the secrets of the planet, and extract enough fuel to ensure you can make it home in your ship (the Javelin). Be prepared to scan all manners of strange fauna and flora as part of your analysis and make sure you keep your trusty laser gun close by - not everything is as innocently sweet as a Pufferbird (think of Porgs from Star Wars).
 
-Accompanying you along the way is the ever-present E.K.O, a satirical automated voice who is always happy to tell you just how terrible you are at the game or how things are about to go wonderfully wrong. The humour E.K.O chimes in with is definitely reminiscent of GlaDOS from Portal and the sarcasm is enough to keep you entertained for a good while. Aside from E.K.O, the comedic creatures and (hilarious) advert videos played on-loop in the Javelin always keep you coming back for more light-hearted, goofy fun.
+Accompanying you along the way is the ever-present E.K.O, a satirical automated voice who is always happy to tell you just how terrible you are at the game or how things are about to go wonderfully wrong. The humour E.K.O chimes in with is definitely reminiscent of GlaDOS from Portal and the sarcasm is enough to keep you entertained for a good while. Aside from E.K.O, the comedic creatures and (hilarious) advert videos played on-loop in the Javelin always keep you coming back for more light-hearted, goofy fun. The upbeat, sci-fi soundtrack and adorable noises also add to the immersive experience.
 
-Overall, the gameplay is smooth and the controls are pretty intuitive. There are a variety of mechanics which can be nicely chained together to explore ARY-26. Getting the jumping right can be frustrating at times but, when you do, there's nothing more satisfying than reaching that distant platform with some tantalising new resources. The upgrade tree is perfect, in my opinion, since it allows players to prioritise the gameplay aspects that are important to them (exploration or damage, for example) without being overwhelmingly large. Simply exploring all over the planet and completing the pre-requisite 'science experiments' should be enough to give you the resources required for just about all the clever upgrades available. 
+Overall, the gameplay is smooth and the controls are pretty intuitive. There are a variety of mechanics which can be nicely chained together to explore AR-Y26. Getting the jumping right can be frustrating at times but, when you do, there's nothing more satisfying than reaching that distant platform with some tantalising new resources. The upgrade tree is perfect, in my opinion, since it allows players to prioritise the gameplay aspects that are important to them (exploration or combat, for example) without being overwhelmingly large. Simply exploring all over the planet and completing the pre-requisite 'science experiments' should be enough to give you the resources required for just about all the clever upgrades available. 
 
 The game world is quite large but playing through the story can be done relatively quickly. The exploration aspect of Journey to the Savage Planet is where it really shines with various challenges and hidden areas to keep you busy. The most fun I personally had was running freely around the planet, discovering secrets and using my newly acquired upgrades to reach places I hadn't been able to before. The good news is that the game encourages this kind of behaviour and guides you in the right direction, all while allowing you to feel like you have full control of the path you take.
 
