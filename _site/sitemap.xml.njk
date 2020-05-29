@@ -8,7 +8,7 @@ excludeFromSitemap: true
 {%- if not page.data.excludeFromSitemap %}
   {% set absoluteUrl %}{{ page.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <url>
-    <loc>{{ absoluteUrl }}</loc>
+    <loc>{{ 'https://jasp.dev'+ absoluteUrl }}</loc>
     <lastmod>{{ page.date | htmlDateString }}</lastmod>
   </url>
 {%- endif %}
