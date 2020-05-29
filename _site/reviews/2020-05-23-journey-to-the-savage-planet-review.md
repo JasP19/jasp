@@ -29,6 +29,6 @@ The best part about the alien world is the stunning visuals which are colourful 
 
 As far as games go, Journey to the Savage Planet is reasonably priced at around half the price of a new AAA game. You might even be able to pick it up at a steal during one of the many sales going on at the moment. The game is not cross-platform but it's available on just about every platform you can think of (PlayStation 4, Xbox One, PC and Nintendo Switch) and, with the recent release of a DLC expansion pack (jokingly named Hot Garbage), the game looks to have future continuity. One final good note is that the support team is active on social media and responds quickly to any queries or issues.
  
-Journey to the Savage planet is a fun little game that draws you in with it's exotic scenery and keeps you engaged with its fluid gameplay, witty commentary and massive potential for exploration. I thoroughly enjoyed playing through Typhoon Studio's creation with my girlfriend and I think it should have a place in any gamer's collection.
+Journey to the Savage Planet is a fun little game that draws you in with it's exotic scenery and keeps you engaged with its fluid gameplay, witty commentary and massive potential for exploration. I thoroughly enjoyed playing through Typhoon Studio's creation with my girlfriend and I think it should have a place in any gamer's collection.
 
 _Jason Parry and Kelly Radhalal_
