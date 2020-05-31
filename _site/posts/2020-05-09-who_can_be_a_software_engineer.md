@@ -30,4 +30,6 @@ The final attribute we're looking at is selflessness. One of the hard truths man
 
 If you're reading this series with thoughts about becoming a software engineer yourself, I'm sure you've recognised that you have at least a couple of these qualities. The industry seems to attract a disproportionately high number of curious, adaptable, selfless people. Interacting with like-minded individuals is definitely one of the most rewarding aspects of the job and many of the software engineers I've met are wonderful people. All in all, I hope I've highlighted some of the key attributes in this industry. In the next post we'll continue our journey by looking at the qualifications you need to become a software engineer.
 
+UPDATE: The next post in the series is now live where I talk about [the qualifications required to be a software engineer](/posts/2020-05-31-what_qualifications_do_software_engineers_need/).
+
 _Jason Parry_
