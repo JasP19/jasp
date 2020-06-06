@@ -14,8 +14,8 @@
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         {# These next two links are hidden are allow scrollspy to detect the current page #}
-        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
-        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
+        <a class="d-none-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none-none nav-item nav-link" href="#main-content">nav target</a>
         
         {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>{% endif %}
         {% set mainNav = collections.all | eleventyNavigation("main") %}
