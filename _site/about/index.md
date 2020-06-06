@@ -1,6 +1,7 @@
 ---
 layout: layouts/page.njk
 hero: /images/me.png
+title: About
 navtitle: About
 about: true
 headerHeight: 25em;
