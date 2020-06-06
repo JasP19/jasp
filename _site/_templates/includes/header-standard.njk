@@ -1,3 +1,20 @@
+<head>  
+  <title>{{title}}</title>
+  <meta charset="utf-8">
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='description' content='A tech blog featuring coding, electronics and gaming'/>
+  <meta property='og:title' content='jasp' />
+  <meta property='og:type' content='article' />
+  <meta property='og:description' content='A tech blog featuring coding, electronics and gaming'/>
+  <meta property='og:url' content='https://jasp.dev' />
+  <meta property='og:image' content='{{hero}}'/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@JasP_19" />
+  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:description" content="{{summary}}" />
+  <meta property='twitter:image' content='https://jasp.dev{{hero}}'/>
+</head>
+
 <header id="page-hero" class="site-header position-relative {% if not hero %}mt-5{% endif %} site-header" style="width: 100vw; {% if hero %}min-height: {{(headerHeight) if headerHeight else '50vh'}};{% endif %}">
 {% if about %}
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: url({{ hero }}); height: 100%; width: 100%;  filter: blur({{(blur) if blur else '0'}});" ></section>
