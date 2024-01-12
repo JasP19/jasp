@@ -1,8 +1,8 @@
-const cacheName = "app-" + "6ed30ed0579424125b3ae6d2286c11eac5dd70e4";
-const resourcesToCache = ["/","/app.css","/app.js","/manifest.webmanifest","/wasm_exec.js","/web/app.wasm","https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png"];
+const cacheName = "app-" + "3f526ab0769847d79cac1048928f9f8a003028ea";
+const resourcesToCache = ["./web/cube.css","./web/cube.js","/","/app.css","/app.js","/manifest.webmanifest","/wasm_exec.js","/web/app.wasm","https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png"];
 
 self.addEventListener("install", (event) => {
-  console.log("installing app worker 6ed30ed0579424125b3ae6d2286c11eac5dd70e4");
+  console.log("installing app worker 3f526ab0769847d79cac1048928f9f8a003028ea");
 
   event.waitUntil(
     caches
@@ -28,7 +28,7 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  console.log("app worker 6ed30ed0579424125b3ae6d2286c11eac5dd70e4 is activated");
+  console.log("app worker 3f526ab0769847d79cac1048928f9f8a003028ea is activated");
 });
 
 self.addEventListener("fetch", (event) => {

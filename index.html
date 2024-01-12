@@ -2,27 +2,252 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="author" content>
-<meta name="description" content="An Hello World! example">
-<meta name="keywords" content>
+<meta content name="author">
+<meta name="description" content="A WASM Rubik's cube site">
+<meta content name="keywords">
 <meta name="theme-color" content="#2d2c2c">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
-<meta property="og:url" content="http://127.0.0.1:45261/">
+<meta property="og:url" content="http://127.0.0.1:36571/">
 <meta property="og:title" content>
-<meta property="og:description" content="An Hello World! example">
+<meta property="og:description" content="A WASM Rubik's cube site">
 <meta property="og:type" content="website">
-<meta property="og:image" content>
+<meta content property="og:image">
 <title></title>
 <link type="text/css" rel="preload" href="/app.css" as="style">
+<link type="text/css" rel="preload" href="./web/cube.css" as="style">
 <link rel="icon" href="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg">
 <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" type="text/css" href="/app.css">
+<link rel="stylesheet" type="text/css" href="./web/cube.css">
 <script defer src="/wasm_exec.js"></script>
-<script defer src="/app.js"></script>
+<script src="/app.js" defer></script>
+<script src="./web/cube.js"></script>
 </head>
 <body>
-<h1>Hello World!</h1>
+<div class="scene" id="scene">
+    <div class="pivot centered" id="pivot" style="transform: rotateX(-35deg) rotateY(-135deg)">
+      <div class="cube" id="cube">
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+        <div class="piece">
+          <div class="element left"></div>
+          <div class="element right"></div>
+          <div class="element top"></div>
+          <div class="element bottom"></div>
+          <div class="element back"></div>
+          <div class="element front"></div>
+        </div>
+      </div>
+    </div>
+    <div class="credits">
+      <div class="text" style="position: initial">Cube code courtesy of <a href="https://codepen.io/Omelyan" target="_blank">Dmytro Omelyan</a></div>
+    </div>
+  </div>
+  <div id="guide">
+    <div class="anchor" id="anchor3" style="transform: translateZ(3px) translateY(-33.33%) rotate(-270deg) translateY(66.67%)"></div>
+    <div class="anchor" id="anchor2" style="transform: translateZ(3px) translateY(-33.33%) rotate(-180deg) translateY(66.67%)"></div>
+    <div class="anchor" id="anchor1" style="transform: translateZ(3px) translateY(-33.33%) rotate(-90deg) translateY(66.67%)"></div>
+    <div class="anchor" id="anchor0" style="transform: translateZ(3px) translateY(-33.33%) rotate(0deg) translateY(66.67%)"></div>
+  </div>
 <aside id="app-wasm-loader" class="goapp-app-info">
 <img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png">
 <p id="app-wasm-loader-label" class="goapp-label">0%</p>

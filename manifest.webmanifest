@@ -1,7 +1,7 @@
 {
-  "short_name": "Hello",
-  "name": "Hello",
-  "description": "An Hello World! example",
+  "short_name": "JasP",
+  "name": "JasP",
+  "description": "A WASM Rubik's cube site",
   "icons": [
     {
       "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg",
