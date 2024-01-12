@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta content name="author">
+<meta name="author" content>
 <meta name="description" content="A WASM Rubik's cube site">
-<meta content name="keywords">
+<meta name="keywords" content>
 <meta name="theme-color" content="#2d2c2c">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
-<meta property="og:url" content="http://127.0.0.1:40293/">
+<meta property="og:url" content="http://127.0.0.1:33647/">
 <meta property="og:title" content="JasP">
-<meta content="A WASM Rubik's cube site" property="og:description">
+<meta property="og:description" content="A WASM Rubik's cube site">
 <meta property="og:type" content="website">
 <meta property="og:image" content="./web/logo.png">
 <title>JasP</title>
-<link href="/app.css" as="style" type="text/css" rel="preload">
-<link as="style" type="text/css" rel="preload" href="./web/cube.css">
+<link type="text/css" rel="preload" href="/app.css" as="style">
+<link rel="preload" href="./web/cube.css" as="style" type="text/css">
 <link rel="icon" href="./web/logo.png">
 <link rel="apple-touch-icon" href="./web/logo.png">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="stylesheet" type="text/css" href="/app.css">
-<link rel="stylesheet" type="text/css" href="./web/cube.css">
+<link type="text/css" href="./web/cube.css" rel="stylesheet">
 <script defer src="/wasm_exec.js"></script>
 <script defer src="/app.js"></script>
 <script defer src="./web/cube.js"></script>
@@ -248,8 +248,8 @@
     <div class="anchor" id="anchor1" style="transform: translateZ(3px) translateY(-33.33%) rotate(-90deg) translateY(66.67%)"></div>
     <div class="anchor" id="anchor0" style="transform: translateZ(3px) translateY(-33.33%) rotate(0deg) translateY(66.67%)"></div>
   </div>
-<aside class="goapp-app-info" id="app-wasm-loader">
-<img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="./web/logo.png">
+<aside id="app-wasm-loader" class="goapp-app-info">
+<img class="goapp-logo goapp-spin" src="./web/logo.png" id="app-wasm-loader-icon">
 <p id="app-wasm-loader-label" class="goapp-label">0%</p>
 </aside>
 </body>
