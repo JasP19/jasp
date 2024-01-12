@@ -7,9 +7,6 @@ import (
 	"github.com/maxence-charriere/go-app/v9/pkg/app"
 )
 
-// hello is a component that displays a simple "Hello World!". A component is a
-// customizable, independent, and reusable UI element. It is created by
-// embedding app.Compo into a struct.
 type jasp struct {
 	app.Compo
 }
@@ -30,16 +27,25 @@ func main() {
 
 	err := app.GenerateStaticWebsite(".", &app.Handler{
 		Name:        "JasP",
+		ShortName:   "JasP",
+		Title:       "JasP",
 		Description: "A WASM Rubik's cube site",
+		Image:       "./web/logo.png",
+		Icon: app.Icon{
+			Default: "./web/logo.png", // Specify default favicon.
+			Large:   "./web/logo.png", // Specify icon on IOS devices.
+			SVG:     "./web/logo.png", // Specify SVG version of favicon.
+		},
 		Styles: []string{
 			"./web/cube.css",
 		},
-		// manually updated index.html to defer this
-		Scripts: []string{
-			"./web/cube.js",
+		// manually updated index.html to defer the script
+		RawHeaders: []string{
+			`<script defer src="./web/cube.js"></script>`,
 		},
-		// Resources: app.GitHubPages("jasp"),
-		// Resources: app.LocalDir("web"),
+		// Scripts: []string{
+		// 	"./web/cube.js",
+		// },
 	})
 
 	if err != nil {

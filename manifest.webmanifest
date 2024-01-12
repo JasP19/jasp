@@ -4,17 +4,17 @@
   "description": "A WASM Rubik's cube site",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg",
+      "src": "./web/logo.png",
       "type": "image/svg+xml",
       "sizes": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png",
+      "src": "./web/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.png",
+      "src": "./web/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     }
