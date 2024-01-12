@@ -16,7 +16,7 @@ type jasp struct {
 
 // The Render method is where the component appearance is defined.
 func (j *jasp) Render() app.UI {
-	b, err := os.ReadFile("./web/cube.html")
+	b, err := os.ReadFile("web/cube.html")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -34,9 +34,12 @@ func main() {
 		Styles: []string{
 			"./web/cube.css",
 		},
+		// manually updated index.html to defer this
 		Scripts: []string{
 			"./web/cube.js",
 		},
+		// Resources: app.GitHubPages("jasp"),
+		// Resources: app.LocalDir("web"),
 	})
 
 	if err != nil {
